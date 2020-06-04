@@ -35,6 +35,6 @@ public class UserController {
     }
     @RequestMapping(value = "/test2", method = RequestMethod.GET)
     public String test2(){
-        return "2222";
+        return "22223";
     }
 }
