@@ -33,4 +33,8 @@ public class UserController {
     public String test(){
         return "1111";
     }
+    @RequestMapping(value = "/test2", method = RequestMethod.GET)
+    public String test2(){
+        return "2222";
+    }
 }
